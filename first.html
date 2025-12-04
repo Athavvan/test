@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            form                
+        </title>
+    </head>
+    <link rel="Stylesheet" type="text/css" href="form.css">
+    <style>
+    .div-class1
+    {
+
+        }
+    </style>
+    <body>
+        <div class="div-class1">
+        <b><h1>E-Membership Registeration form</h1></b>
+        <form name="E-Membership" method="post" action="">
+            <table align="center" cellpadding="10">
+                <tr>
+                    <td> Religion :</td>
+                    <td><input type="text" placeholder="enter your country name"></td>
+                </tr>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" name="name" placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="r1">Male&nbsp;&nbsp;&nbsp;<input type="radio" name="r1">Female</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" name="password" placeholder="enter your password"></td>
+                </tr>
+                <tr>
+                    <td>E-mail :</td>
+                    <td><input type="email" name="email" placeholder="enter your E-mail"></td>
+                </tr>
+                <tr>
+                    <td>Contact No :</td>
+                    <td><input type="number" name="contactno" placeholder="enter your Contact No"></td>
+                </tr>
+                <tr>
+                    <td>Whatsapp No :</td>
+                    <td><input type="number" name="whaTSAPPNO" placeholder="enter your Whatsapp No"></td>
+                </tr>
+                <tr>
+                    <td>Select the Plan :</td>
+                    <td>
+                        <select name="plans">
+                            <option>Weekly</option>
+                            <option>Monthly</option>
+                            <option selected>Yearly</option>
+                            <option>Customize</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+                    <input type="button" name="cancel" value="cancel"></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>
